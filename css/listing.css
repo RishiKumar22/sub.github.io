@@ -1,0 +1,122 @@
+* {box-sizing: border-box;}
+body { margin: 0px; padding: 0px; font-size: 14px;}
+
+h1, h2, h3, h4, h5, h6, a, p, span, form, stong, input, radio, ul, li, ol, checkbox, textarea, textfiled, select {margin: 0px; padding: 0px;
+}
+
+a {text-decoration: none!important;}
+img {border: none;}
+a, img {border:none}
+
+header, nav, hgroup, section, article, aside, figure,  figcaption, audio, video, footer {display: block;}
+
+
+
+/******************* html start here *******************/
+
+/********** Variables start  **********/
+:root {
+    --primary-dark:#032130;
+    --primary:#023047;
+    --secondary:#F8674C;
+    --white:#ffffff;
+    --black:#000000;
+    --grey:#A2A2A4;
+    --grey-ligh:#F2F4F8;
+    --maroon:#56273B;
+    --roboto:Roboto;
+    --rubik:rubik;
+}
+/********** Variables end **********/
+
+/* listing start */
+.blog-bg {background: var(--primary);} 
+.listing {padding: 70px 0;}
+.listing-head {color: var(--white);font-size:68px;font-family:var(--rubik) ; font-weight: bold;} 
+.breadcrumb {background:none; text-align:center!important;width:100%; display: inline-block; }
+.breadcrumb li  {text-align: left;display:inline-block}
+.breadcrumb li a  {color: var(--white);}
+.breadcrumb-item {font-size:19px;}
+.listing-pera {font-size:28px; font-weight: bold;color:var(--primary-dark) ; text-align: center;line-height:38px;padding:50px 20% ;}
+
+.box-listing {margin-bottom: 30px;}
+.list {overflow: hidden;}
+.list img {object-fit:cover;width:100%}
+.list-con {background: var(--white);padding:50px 40px;}
+.list-blog { font-size: 28px; font-weight:bold ; font-family:var(--rubik); line-height: 39px; padding-top: 30px; padding-bottom: 30px; }
+/* listing end */
+/******************* html end here *******************/
+
+
+/******************* pagination end here *******************/
+.page-item {margin: 3px; }
+.page-link {border: none!important; color: var(--primary-dark); font-size: 21px;}
+.page-item.active .page-link {background:var(--secondary)}
+/******************* pagination end here *******************/
+
+/******************* info star here *******************/
+
+.info {padding-bottom: 50px;}
+.info h1 { font-weight: bold; color:var(--primary-dark);font-size: 48px;font-family:var(--rubik) ; padding-bottom: 20px;}
+.info ul {list-style: none; margin: 0px; padding: 0px;}
+.info ul li { padding: 10px 0 ;}
+/******************* info end here *******************/
+
+/******************* lightsidebar end here *******************/
+.side-light {background:var(--white);box-sizing:border-box; padding: 40px;}
+.white-resent {display:flex; justify-content: start; cursor: pointer; }
+/* sidebarbox */
+.white-sidebar {padding: 0 10px; margin-bottom:40px;   }
+.white-side-cate { font-size:12px; color:var(--primary-dark) ; padding: 8px 0; border-bottom:4px solid var(--secondary); font-weight: bold; display: inline-block;}  
+.white-side-head {font-size: 17px; color:var(--primary-dark); font-family:Rubik;line-height:24px;font-weight:bold; padding-top:8px;}
+.white-side-user  {font-size: 14px; color:var(--grey) ; line-height: 17px; padding-top: 10px;   }
+
+/******************* lightsidebar end here *******************/
+
+/******************* stat conect start here *******************/
+.stay {background:var(--primary-dark);box-sizing:border-box; padding: 40px 40px!important;}
+.stay-head {color: var(--white); font-family:var(rubik) ; font-size: 31px; padding-bottom: 10px;font-weight:bold}
+.stay input { width: 100%; height: 78px; background:rgba(242, 244, 248, 0.3); border:none; padding: 20px; margin-bottom: 20px;}
+.stay input::placeholder {font-family: var(--roboto) ; color:var(--white); opacity: 1; font-size: 20px;}
+.stay button {height: 78px; background: var(--secondary); border: none; text-align: center; font-family: Roboto; font-weight: bold; font-size: 20px; color: var(--white); padding: 0 20px; width: 100%;display:block}
+/******************* stat conect end here *******************/
+
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width:1200px) {
+    
+    
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width:992px) {
+    .listing-head {color:var(--white);font-size:48px;font-family:var(--rubik) ; font-weight: bold;} 
+    .listing-pera {font-size:22px; font-weight: bold;color:var(--primary-dark) ; text-align: center;line-height:32px;padding:50px 10% ;}
+    .side-light {background:var(--white);box-sizing:border-box; padding: 40px;  }
+
+}
+
+
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width:768px) { 
+
+}
+ 
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen (max-width:576px) 
+
+{ 
+    
+   
+
+}
+
+
+
+

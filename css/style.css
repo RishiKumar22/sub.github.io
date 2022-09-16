@@ -1,0 +1,105 @@
+* {box-sizing: border-box;}
+body { margin: 0px; padding: 0px; font-size: 14px;}
+
+h1, h2, h3, h4, h5, h6, a, p, span, form, stong, input, radio, ul, li, ol, checkbox, textarea, textfiled, select {margin: 0px; padding: 0px;
+}
+
+a {text-decoration: none;}
+img {border: none;}
+a, img {border:none}
+
+header, nav, hgroup, section, article, aside, figure,  figcaption, audio, video, footer {display: block;}
+
+:root {
+    --primary-dark:#032130;
+    --primary:#023047;
+    --secondary:#F8674C;
+    --white:#ffffff;
+    --black:#000000;
+    --grey:#A2A2A4;
+    --grey-ligh:#F2F4F8;
+    --maroon:#56273B;
+    --roboto:Roboto;
+    --rubik:rubik;
+}
+
+/******************* html start here *******************/
+
+/* trending start here */
+.trending {background:var(--primary); }
+.card-flex {display: flex; padding-top:6px; padding-bottom: 6px;cursor:pointer  }
+.card-user { padding:0 8px ;}
+.card-user h1 { color:var(--white); font-size:15px; font-weight: bold; line-height: 24px; font-family: Rubik}
+.card-user p { color:var(--white); font-size:12px; font-weight: lighter;  font-family: Roboto; padding-top: 10px;}
+/* trending end here */
+
+/* slider start here*/
+
+
+/* slider end here*/
+
+
+/* Topic start here */
+.topic-bg {background:var(--maroon); padding: ;}
+
+/* Topic start here */
+
+/******************* html end here *******************/
+
+/******************* subscribe start here *******************/
+.sub {background:var(--primary) ; padding: 50px 10%;  }
+.form-mg {margin-top: ;}
+.input-form {width: 100%;}
+.input-form > .form-control {border-radius:0px !important; height: 48px; }
+.info-btn {height: 48px; background: var(--secondary); border: none; text-align: center; font-family: Roboto; font-weight: bold; font-size: 20px; color: var(--white);  padding: 0 20px; width: 100%; display: block}
+.sub-img {width: auto; overflow: hidden;} 
+.sub-img img {object-fit: cover;} 
+
+/* slider */
+
+
+
+.new-slid {width: 600px; background:none; margin: 0 10px;}
+.new-img {overflow: hidden;}
+.new-img  img {object-fit: cover;}
+.new-con { background: var(--white);}
+.new-pad {padding:30px;}
+.cell-width {width: auto!important;}
+.carousel-bg {background:none!important}
+
+
+/******************* subscribe end here *******************/
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    
+    
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+
+    .card-user { padding:0 8px ; margin-bottom: 20px;}
+    .card-user h1 { color:var(--white); font-size:14px; font-weight: bold; line-height: 20px; font-family: Rubik}
+    
+}
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 768px)  {}
+    
+    
+ 
+
+ 
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+    .new-slid {width: auto; background:none; margin: 0 10px;}
+    .new-img {overflow: hidden; padding: 0px;}
+    .new-img  img {width: 100%; padding: 0px;}
+}
+
+
+

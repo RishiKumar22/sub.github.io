@@ -1,0 +1,26 @@
+.carousel {
+    background: #fff;
+  }
+  
+  .carousel-cell {
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
+    background: ;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+  
+    line-height: 200px;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+  }
+
+  .flickity-prev-next-button {display: none!important;}
+
+  
